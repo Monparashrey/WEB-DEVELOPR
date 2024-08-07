@@ -1,0 +1,582 @@
+@media (min-width: 1400px) {
+    .container{
+        width: 1340px;
+        
+    }
+    .w-xxl-1 {
+        width: 8.33%;
+    }
+      .w-xxl-2 {
+        width: 16.66%;
+    }
+      .w-xxl-3 {
+        width: 25%;
+    }
+      .w-xxl-4 {
+        width: 33.33%;
+    }
+      .w-xxl-5 {
+        width: 41.66%;
+    }
+      .w-xxl-6 {
+        width: 50%;
+    }
+      .w-xxl-7 {
+        width: 58.33%;
+    }
+      .w-xxl-8 {
+        width: 66.66%;
+    }
+      .w-xxl-9 {
+        width: 75%;
+    }
+      .w-xxl-10 {
+        width: 83.33%;
+    }
+      .w-xxl-11 {
+        width: 91.66%;
+    }
+      .w-xxl-12 {
+        width: 100%;
+    }
+    .w-xxl-none{
+      display: none;
+    }
+      .w-xxl-1, .w-xxl-2, .w-xxl-3, .w-xxl-4, .w-xxl-5, .w-xxl-6, .w-xxl-7, .w-xxl-8, .w-xxl-9, .w-xxl-10, .w-xxl-11, .w-xxl-12 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header-bar{
+      display: block;
+    }
+
+
+}
+@media (max-width: 1399px) {
+    .container{
+        width: 1140px;
+        
+    }
+      .w-xl-1 {
+        width: 8.33%;
+    }
+      .w-xl-2 {
+        width: 16.66%;
+    }
+      .w-xl-3 {
+        width: 25%;
+    }
+      .w-xl-4 {
+        width: 33.33%;
+    }
+      .w-xl-5 {
+        width: 41.66%;
+    }
+      .w-xl-6 {
+        width: 50%;
+    }
+      .w-xl-7 {
+        width: 58.33%;
+    }
+      .w-xl-8 {
+        width: 66.66%;
+    }
+      .w-xl-9 {
+        width: 75%;
+    }
+      .w-xl-10 {
+        width: 83.33%;
+    }
+      .w-xl-11 {
+        width: 91.66%;
+    }
+      .w-xl-12 {
+        width: 100%;
+    }
+      .w-xl-1, .w-xl-2, .w-xl-3, .w-xl-4, .w-xl-5, .w-xl-6, .w-xl-7, .w-xl-8, .w-xl-9, .w-xl-10, .w-xl-11, .w-xl-12 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .w-xl-none{
+      display: none;
+    }
+
+    .food-upate-item {
+      margin-left: 40px;
+    }
+}
+@media (max-width: 1199px) {
+    .container{
+        width: 960px;
+        
+    }
+      .w-l-1 {
+        width: 8.33%;
+    }
+      .w-l-2 {
+        width: 16.66%;
+    }
+      .w-l-3 {
+        width: 25%;
+    }
+      .w-l-4 {
+        width: 33.33%;
+    }
+      .w-l-5 {
+        width: 41.66%;
+    }
+      .w-l-6 {
+        width: 50%;
+    }
+      .w-l-7 {
+        width: 58.33%;
+    }
+      .w-l-8 {
+        width: 66.66%;
+    }
+      .w-l-9 {
+        width: 75%;
+    }
+      .w-l-10 {
+        width: 83.33%;
+    }
+      .w-l-11 {
+        width: 91.66%;
+    }
+      .w-l-12 {
+        width: 100%;
+    }
+      .w-l-1, .w-l-2, .w-l-3, .w-l-4, .w-l-5, .w-l-6, .w-l-7, .w-l-8, .w-l-9, .w-l-10, .w-l-11, .w-l-12 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+
+    .w-food-items-l{
+      row-gap:10px;
+    }
+
+    .w-l-none{
+      display: none;
+    }
+    .w-food-items-xl{
+      column-gap: 10px;
+    }
+   .w-food-u-i{
+    gap: 5px;
+   }
+
+   .header-bar{
+    display: block;
+   }
+}
+@media (max-width: 991px) {
+      .container{
+        width: 720px;
+        overflow: hidden;
+    }
+      .w-m-1 {
+        width: 8.33%;
+    }
+      .w-m-2 {
+        width: 16.66%;
+    }
+      .w-m-3 {
+        width: 25%;
+    }
+      .w-m-4 {
+        width: 33.33%;
+    }
+      .w-m-5 {
+        width: 41.66%;
+    }
+      .w-m-6 {
+        width: 50%;
+    }
+      .w-m-7 {
+        width: 58.33%;
+    }
+      .w-m-8 {
+        width: 66.66%;
+    }
+      .w-m-9 {
+        width: 75%;
+    }
+      .w-m-10 {
+        width: 83.33%;
+    }
+      .w-m-11 {
+        width: 91.66%;
+    }
+      .w-m-12 {
+        width: 100%;
+    }
+    .w-dispal-n{
+      display: none;
+    }
+    .w-t-b{
+      display: block;
+    }
+    .w-m-b{
+      justify-content: space-between;
+    }
+    .w-section-m-c-h1-span{
+      font-size: 16px;
+    }
+
+    .header-bar{
+      width: 100%;
+      background-color:white;
+      padding: 10px;
+      display: none; 
+    }
+
+      .header-bar span{
+        color:black;
+      }
+      .header-bar ul{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+      }
+      
+
+      .w-m-1, .w-m-2, .w-m-3, .w-m-4, .w-m-5, .w-m-6, .w-m-7, .w-m-8, .w-m-9, .w-m-10, .w-m-11, .w-m-12 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .food-btn-2 span{
+      font-size: 20px;
+      text-align: center;
+    }
+    .w-m-j-c{
+      justify-content: center;
+      align-items: center;
+    }
+
+   
+}
+@media (max-width: 767px) {
+    .container{
+        width: 540px;
+        overflow: hidden;
+    }
+    .w-s-1 {
+        width: 8.33%;
+    }
+      .w-s-2 {
+        width: 16.66%;
+    }
+      .w-s-3 {
+        width: 25%;
+    }
+      .w-s-4 {
+        width: 33.33%;
+    }
+      .w-s-5 {
+        width: 41.66%;
+    }
+      .w-s-6 {
+        width: 50%;
+    }
+      .w-s-7 {
+        width: 58.33%;
+    }
+      .w-s-8 {
+        width: 66.66%;
+    }
+      .w-s-9 {
+        width: 75%;
+    }
+      .w-s-10 {
+        width: 83.33%;
+    }
+      .w-s-11 {
+        width: 91.66%;
+    }
+      .w-s-12 {
+        width: 100%;
+    }
+      .w-s-1, .w-s-2, .w-s-3, .w-s-4, .w-s-5, .w-s-6, .w-s-7, .w-s-8, .w-s-9, .w-s-10, .w-s-11, .w-s-12 {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .w-b-s{
+        display: block;
+      }
+     
+
+      .banner-contaen h1,span{
+        font-size:30px;
+      }
+
+      .b-i-s{
+        width: 100%;
+      }
+      .food-btn span{
+        font-size: 16px;
+      }
+     
+
+      .w-d-f-s{
+        display: flex;
+      }
+      .reservation-area-contant h2,p{
+        font-size: 35px;
+      }
+
+      .special-deshes h3{
+        font-size: 30px;
+      }
+
+      .special-deshes h2{
+        font-size: 16px;
+      }
+      .customer{
+        width: 100%;
+      }
+
+      .customer-contant h2{
+        font-size: 16px;
+      }
+
+        .customer-contant span{
+        font-size: 16px;
+      }
+
+       .customer-contant p{
+        font-size: 18px;
+      
+      }
+
+      .main-pare h2,p,span,a {
+        font-size: 16px;
+      }
+}
+
+@media (max-width: 768px) {
+  .container{
+      width: 540px;
+      overflow: hidden;
+  }
+  .w-s-1 {
+      width: 8.33%;
+  }
+    .w-s-2 {
+      width: 16.66%;
+  }
+    .w-s-3 {
+      width: 25%;
+  }
+    .w-s-4 {
+      width: 33.33%;
+  }
+    .w-s-5 {
+      width: 41.66%;
+  }
+    .w-s-6 {
+      width: 50%;
+  }
+    .w-s-7 {
+      width: 58.33%;
+  }
+    .w-s-8 {
+      width: 66.66%;
+  }
+    .w-s-9 {
+      width: 75%;
+  }
+    .w-s-10 {
+      width: 83.33%;
+  }
+    .w-s-11 {
+      width: 91.66%;
+  }
+    .w-s-12 {
+      width: 100%;
+  }
+    .w-s-1, .w-s-2, .w-s-3, .w-s-4, .w-s-5, .w-s-6, .w-s-7, .w-s-8, .w-s-9, .w-s-10, .w-s-11, .w-s-12 {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .nav-s-h{
+      display: none;
+    }
+
+    .banner-contaen h1,span{
+      font-size:30px;
+    }
+
+    .b-i-s{
+      width: 100%;
+    }
+    .food-btn span{
+      font-size: 16px;
+    }
+   
+
+    .w-d-f-s{
+      display: flex;
+    }
+    .reservation-area-contant h2,p{
+      font-size: 35px;
+    }
+
+    .special-deshes h3{
+      font-size: 30px;
+    }
+
+    .special-deshes h2{
+      font-size: 16px;
+    }
+    .customer{
+      width: 100%;
+    }
+
+    .customer-contant h2{
+      font-size: 16px;
+    }
+
+      .customer-contant span{
+      font-size: 16px;
+    }
+
+     .customer-contant p{
+      font-size: 18px;
+    
+    }
+
+    .main-pare h2,p,span,a {
+      font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+  .container{
+      width: 100%;
+      overflow: hidden;
+  }
+  .w-xs-1 {
+      width: 8.33%;
+  }
+    .w-xs-2 {
+      width: 16.66%;
+  }
+    .w-xs-3 {
+      width: 25%;
+  }
+    .w-xs-4 {
+      width: 33.33%;
+  }
+    .w-xs-5 {
+      width: 41.66%;
+  }
+    .w-xs-6 {
+      width: 50%;
+  }
+    .w-xs-7 {
+      width: 58.33%;
+  }
+    .w-xs-8 {
+      width: 66.66%;
+  }
+    .w-xs-9 {
+      width: 75%;
+  }
+    .w-xs-10 {
+      width: 83.33%;
+  }
+    .w-xs-11 {
+      width: 91.66%;
+  }
+    .w-xs-12 {
+      width: 100%;
+  }
+    .w-xs-1, .w-xs-2, .w-xs-3, .w-xs-4, .w-xs-5, .w-xs-6, .w-xs-7, .w-xs-8, .w-xs-9, .w-xs-10, .w-xs-11, .w-xs-12 {
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+  .reservation-area-contant h2,p,span{
+    font-size: 24px;
+  }
+  .food-menu-items i,p,h5 {
+    font-size: 16px;
+  }
+  .w-main-items-j-c-xs{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-pare span,h2,p,a,i{
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+    .container{
+        width: 100%;
+        overflow: hidden;
+    }
+    .w-xs-1 {
+        width: 8.33%;
+    }
+      .w-xs-2 {
+        width: 16.66%;
+    }
+      .w-xs-3 {
+        width: 25%;
+    }
+      .w-xs-4 {
+        width: 33.33%;
+    }
+      .w-xs-5 {
+        width: 41.66%;
+    }
+      .w-xs-6 {
+        width: 50%;
+    }
+      .w-xs-7 {
+        width: 58.33%;
+    }
+      .w-xs-8 {
+        width: 66.66%;
+    }
+      .w-xs-9 {
+        width: 75%;
+    }
+      .w-xs-10 {
+        width: 83.33%;
+    }
+      .w-xs-11 {
+        width: 91.66%;
+    }
+      .w-xs-12 {
+        width: 100%;
+    }
+    .w-d-b-n-xs{
+      display: none;
+    }
+      .w-xs-1, .w-xs-2, .w-xs-3, .w-xs-4, .w-xs-5, .w-xs-6, .w-xs-7, .w-xs-8, .w-xs-9, .w-xs-10, .w-xs-11, .w-xs-12 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .reservation-area-contant h2,p,span{
+      font-size: 24px;
+    }
+    .food-menu-items i,p,h5 {
+      font-size: 16px;
+    }
+    .w-main-items-j-c-xs{
+      justify-content: center;
+      align-items: center;
+    }
+    .w-d-b-n-xs{
+      display: none;
+    }
+    .main-footer {
+      width: 100%;
+    }
+
+}

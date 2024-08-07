@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<!-- #050A19 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devis || personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <link rel="shortcut icon" href="assest/img/favicon/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="assest/css/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="assest/css/bootstrap-icons.scss">
+
+    <link rel="stylesheet" href="assest/css/aos.css">
+
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assest/css/stylesheet.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assest/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assest/css/style.css">
+
+    <link rel="stylesheet" href="assest/css/loader.css">
+</head>
+
+<!-- cursor -->
+<div id="cursor"></div>
+<div id="cursor-border"></div>
+
+<!-- loader -->
+ <div class="loading-area">
+    <div class="loader">
+    </div>
+</div>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" class="hidden">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menus" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menus</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Menus Offcanvas end -->
+
+    <!-- Header start -->
+    <header class="position-fixed w-100 left-0">
+        <nav class="navbar navbar-expand-lg  bg-opacity-75">
+            <div class="container">
+                <a class="navbar-brand text-white fs-2" href="#">
+                    <img src="assest/img/logo/logo.png" alt="">
+                </a>
+                <button class="btn btn-outline-danger fs-5 d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#menus" aria-controls="offcanvasExample">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0  ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#Skills">Skills</a>
+                        </li>
+                        <a class="nav-link text-white" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contect">Contect</a>
+                        </li>
+
+                    </ul>
+                    <div class="mx-4 info">
+                        <i class="bi bi-telephone-minus"></i>
+
+                    </div>
+                    <a href="#" class="text-warning info ">+98794-72600</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner -->
+        <section class="bg-banner  w-100">
+            <div class="container ">
+                <div class="row  justify-content-center  align-items-center ">
+                    <div class="col-6">
+                        <div class="st-social-group" data-aos="fade-right" data-aos-delay="1000"
+                            data-aos-duration="1000">
+                            <a href="https://www.linkedin.com/in/monpara-shrey-20b110275/" target="_blank">
+                                <button type="button" class="social-btn  p-3  px-xl-4 pe-2"><span><i
+                                            class="bi bi-linkedin me-3 fs-5 "></i></span>Linkedin</button>
+                            </a>
+                            <a href="https://github.com/Monparashrey" target="_blank">
+                                <button type="button" class="social-btn  p-3  px-xl-4 pe-2"><span><i
+                                            class="bi bi-github pe-2"></i></span>Github</button>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <button type="button" class="social-btn  p-3  px-xl-4 pe-2"><span><i
+                                            class="bi bi-instagram pe-2"></i></span>Instagram</button>
+                            </a>
+                        </div>
+                        <div class="banner-contant pt-xxl-5 " data-aos="fade-up" data-aos-delay="200">
+                            <span class="text-warning fs-1">Hello, I’m</span>
+                            <div>
+                                <h1 class="name" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300"
+                                    class="aos-init aos-animate ">
+                                    SHREY MONPARA
+                                </h1>
+                            </div>
+
+                            <div class="fs-1 name" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"
+                                class="aos-init aos-animate">
+                                <p>Back  End Developer</p>
+                            </div>
+
+
+                            <a href="#" class="btn btn-primary  p-2 px-xl-5  rounded-pill fs-5" data-aos="fade-up"
+                                data-aos-duration="800" data-aos-delay="500">Hire Me</a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="me">
+                            <img src="assest/img/shrey.png" alt="hero" data-aos="fade-left" class="d-none d-xxl-block d-md-block img-fluid"
+                                data-aos-delay="1000" data-aos-duration="1000" style="width: 700px; height: 850px; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about me -->
+         <section class="py-5 nav-link" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="titel text-center position-relativ" data-aos="fade-up" data-aos-duration="800">
+                        <h2 class=" text-secondary opacity-25  mt-3 z-n1 ">About Me</h2>
+                        <div class="text-warning fs-3 position-absolute title">
+                            ABOUT ME
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="mt-3">
+                            <img src="assest/img/shrey.png" alt="" data-aos="fade-right" data-aos-duration="800" style="width: 506px; height: 500px; object-fit: cover ;">
+                        </div>
+                    </div>
+
+                    <div class="col-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500  ">
+                        <div class="about-contant mt-3">
+                            <h3 class="fs-2 ">Hi There! I'shrey monpara</h3>
+                            <span class="fs-5 text-warning mb-3 ">Back End Developer</span>
+                            <p class=" mt-2">I am a Create content that guides beginners through the process of
+                                building web
+                                applications or mastering specific technologies like HTML, CSS, JavaScript, and popular
+                                frameworks like React, Angular, or Vue.js.</p>
+                        </div>
+
+                        <div class="col-12 d-flex py-3 ">
+                            <div class="col-2">
+                                <span>Birthday</span>
+                            </div>
+                            <div class="col-10">
+                                <span>: jan 31 , 2006</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex   py-3 ">
+                            <div class="col-2">
+                                <span>Phone</span>
+                            </div>
+                            <div class="col-10">
+                                <span>: +98794-72600</span>
+                            </div>
+                        </div>
+
+                        <div class="col-12 d-flex  py-3 ">
+                            <div class="col-2">
+                                <span>Email</span>
+                            </div>
+                            <div class="col-10">
+                                <span>:monparashreyj2006@gmail.com</span>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 d-flex  py-3 ">
+                            <div class="col-2">
+                                <span>From</span>
+                            </div>
+                            <div class="col-10">
+                                <span>:variyav , surat 395004</span>
+                            </div>
+                        </div>
+
+                        <div class="col-12 d-flex  py-3 ">
+                            <div class="col-2">
+                                <span>From</span>
+                            </div>
+                            <div class="col-10">
+                                <span>:Nationality: Indian  </span>
+                            </div>
+                        </div>
+
+                        <div class="col-12 d-flex  py-3 ">
+                            <div class="col-2">
+                                <span>Language</span>
+                            </div>
+                            <div class="col-10">
+                                <span>: Gujarati , Hindi , English </span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary  p-2 px-xl-5  rounded-pill fs-5 mt-3 ">Download CV</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            </div>
+        </section> 
+
+        <!-- service -->
+         <section class="py-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="titel text-center position-relative py-3" data-aos="fade-up" data-aos-duration="800">
+                        <h2 class=" text-secondary opacity-25  mt-3 z-n1 ">SERVICE</h2>
+                        <div class="text-warning fs-3 position-absolute title">
+                            SERVICE
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-gap-4 ">
+                    <div class="col-4" data-aos="zoom-out-up" data-aos-duration="900" data-aos-delay="500">
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-center  align-items-center">
+                                <div class="broder-img mt-4">
+
+                                    <img src="assest/img/service/icon1.png " alt="" class="">
+                                </div>
+
+                            </div>
+                            <div class="py-4 ">
+                                <h2 class="text-center mb-4">Html</h2>
+                                <p class="card-text text-center mb-4">Lorem ipsum dolor sittem ametamn <br>
+                                    elit,
+                                    per
+                                    sed do eiusmoad
+                                    teimpor <br> sittem elit inuning utsed sittem.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-4" data-aos="zoom-out-up" data-aos-duration="900" data-aos-delay="500">
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-center  align-items-center">
+                                <div class="broder-img mt-4">
+
+                                    <img src="assest/img/service/icon2.png " alt="" class="">
+                                </div>
+
+                            </div>
+                            <div class="py-4 ">
+                                <h2 class="text-center mb-4">Back End Developer</h2>
+                                <p class="card-text text-center mb-4">Lorem ipsum dolor sittem ametamn <br>
+                                    elit,
+                                    per
+                                    sed do eiusmoad
+                                    teimpor <br> sittem elit inuning utsed sittem.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-4" data-aos="zoom-out-up" data-aos-duration="900" data-aos-delay="500">
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-center  align-items-center">
+                                <div class="broder-img mt-4">
+
+                                    <img src="assest/img/service/icon3.png " alt="" class="">
+                                </div>
+
+                            </div>
+                            <div class="py-4 ">
+                                <h2 class="text-center mb-4">website createation</h2>
+                                <p class="card-text text-center mb-4">Lorem ipsum dolor sittem ametamn <br>
+                                    elit,
+                                    per
+                                    sed do eiusmoad
+                                    teimpor <br> sittem elit inuning utsed sittem.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-4" data-aos="zoom-out-up" data-aos-duration="900" data-aos-delay="500">
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-center  align-items-center">
+                                <div class="broder-img mt-4">
+
+                                    <img src="assest/img/service/icon4.png " alt="" class="">
+                                </div>
+
+                            </div>
+                            <div class="py-4 ">
+                                <h2 class="text-center mb-4">Web Design</h2>
+                                <p class="card-text text-center mb-4">Lorem ipsum dolor sittem ametamn <br>
+                                    elit,
+                                    per
+                                    sed do eiusmoad
+                                    teimpor <br> sittem elit inuning utsed sittem.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-4" data-aos="zoom-out-up" data-aos-duration="900" data-aos-delay="500">
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-center  align-items-center">
+                                <div class="broder-img mt-4">
+
+                                    <img src="assest/img/service/icon5.png " alt="" class="">
+                                </div>
+
+                            </div>
+                            <div class="py-4 ">
+                                <h2 class="text-center mb-4">website Animation</h2>
+                                <p class="card-text text-center mb-4">Lorem ipsum dolor sittem ametamn <br>
+                                    elit,
+                                    per
+                                    sed do eiusmoad
+                                    teimpor <br> sittem elit inuning utsed sittem.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-4" data-aos="zoom-out-up" data-aos-duration="900" data-aos-delay="500">
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-center  align-items-center">
+                                <div class="broder-img mt-4">
+
+                                    <img src="assest/img/service/icon6.png " alt="" class="">
+                                </div>
+
+                            </div>
+                            <div class="py-4 ">
+                                <h2 class="text-center mb-4">Responsive Web site</h2>
+                                <p class="card-text text-center mb-4">Lorem ipsum dolor sittem ametamn <br>
+                                    elit,
+                                    per
+                                    sed do eiusmoad
+                                    teimpor <br> sittem elit inuning utsed sittem.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section> 
+
+        <!-- my skill -->
+         <section class="skill-section py-5" id="Skills">
+            <div class="container">
+                <div class="row">
+                    <div class="titel text-center position-relative py-3" data-aos="fade-up" data-aos-duration="800">
+                        <h2 class=" text-secondary opacity-25  mt-3 z-n1 ">SKILLS</h2>
+                        <div class="text-warning fs-3 position-absolute title">
+                            SKILLS
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800">
+                        <div class="about-content">
+                            <h3 class="text-warning ">All the skills that I have in that <br>field of work are
+                                mentioned.</h3>
+                            <p style="color: #A9AdB8;" class="bg-opacity-10 mt-3 opacity-75 ">Lorem ipsum dolor sit
+                                amet,
+                                consetetur
+                                sadipscing
+                                elitr, sed diam
+                                <br> nonumy eirmod
+                                tempor
+                                invidunt ut labore et dolore magna aliquyam <br> erat, sed diam voluptua. At vero eos et
+                                accusam
+                                et justo duo dolores <br> . Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                                ipsum <br>
+                                dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr <br> , sed diam
+                                nonumy
+                                eirmod tempor invidunt.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                    <img src="assest/img/logo-swiper/HTML5_badge.png" alt="html-logo"
+                                        style="width: 100px;">
+                                    <h2 class="ms-3">HTML5</h2>
+                                </div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                    <img src="assest/img/logo-swiper/css3-icon-28.jpg" alt="css3-icon-28"
+                                        style="width: 100px;">
+                                    <h2 class="ms-3">CSS3</h2>
+                                </div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                    <img src="assest/img/logo-swiper/sass-original.svg" alt="sass-original"
+                                        style="width: 100px;">
+                                    <h2 class="ms-3">SASS</h2>
+                                </div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                    <img src="assest/img/logo-swiper/bootstrap-logo.png" alt="bootstrap-logo"
+                                        style="width: 100px;">
+                                    <h2 class="ms-3">BOOTSTRAP</h2>
+                                </div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                    <img src="assest/img/logo-swiper/tailwind.png" alt="tailwind.png"
+                                        style="width: 100px;">
+                                    <h2 class="ms-3">TAILWIND</h2>
+                                </div>
+
+                                <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                    <img src="assest/img/logo-swiper/c-original.svg" alt="c-original.svg"
+                                        style="width: 100px;">
+                                    <h2 class="ms-3">C Language</h2>
+                                </div>
+
+                                <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                    <img src="assest/img/logo-swiper/cplusplus-original.svg" alt="c-original.svg"
+                                        style="width: 100px;">
+                                    <h2 class="ms-3">C++ Language</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- resume -->
+         <section class="py-5" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="titel text-center position-relative py-3" data-aos="fade-up" data-aos-duration="800">
+                        <h2 class=" text-secondary opacity-25  mt-3 z-n1 ">RESUME</h2>
+                        <div class="text-warning fs-3 position-absolute title">
+                            RESUME
+                        </div>
+                    </div>
+                    <div class="resume-titel text-center mb-4" data-aos="fade-down" data-aos-duration="800">
+                        <i class="bi bi-duffle-fill fs-3"><span class="">Education</span></i>
+                    </div>
+
+                    <div class="col-6" data-aos="fade-right" data-aos-duration="800">
+                        <div class="resume">
+                            <p class="text-warning  fs-5 "> currently study diploma computer engineering</p>
+
+                            <h3 class="fs-5">University ssiu</h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc <br> ligula nulla,
+                                tincidunt id
+                                faucibus sed, suscipit feugiat turpis.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6" data-aos="fade-left" data-aos-duration="800">
+                        <div class="resume">
+                            <p class="text-warning  fs-5 "> Diploma In currently study Front End Developer</p>
+
+                            <h3 class="fs-5">Red And White multimedia</h3>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc <br> ligula nulla,
+                                tincidunt id
+                                faucibus sed, suscipit feugiat turpis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- protfolio -->
+         <section class="py-5" id="portfolio">
+            <div class="container">
+                <div class="row row-gap-5 ">
+                    <div class="titel text-center position-relative py-3" data-aos="fade-up" data-aos-duration="800">
+                        <h2 class=" text-secondary opacity-25  mt-3 z-n1 ">PORTFOLIO</h2>
+                        <div class="text-warning fs-3 position-absolute title">
+                            PORTFOLIO
+                        </div>
+                    </div>
+                    <div class="col-6 position-relative overflow-hidden" data-aos="fade-up" data-aos-duration="500"
+                        data-aos-delay="600">
+                        <img src="assest/img/project/bootstrap/andtourtravel.png" alt="" class="pr-img" data-fancybox="gallery">
+                    </div>
+                    <div class="col-6 position-relative overflow-hidden" data-aos="fade-up" data-aos-duration="500"
+                        data-aos-delay="500">
+                        <img src="assest/img/project/html/red and white multimedia education.png" alt="" class="pr-img" data-fancybox="gallery">
+
+                    </div>
+                    <div class="col-6 position-relative overflow-hidden" data-aos="fade-right" data-aos-duration="500"
+                        data-aos-delay="400">
+                        <img src="assest/img/project/jquery/foodfun.png" alt="" class="pr-img" data-fancybox="gallery">
+                    </div>
+                    <div class="col-6 position-relative overflow-hidden" data-aos="fade-right" data-aos-duration="500"
+                        data-aos-delay="300">
+                        <img src="assest/img/project/saas/royalking.png" alt="" class="pr-img" data-fancybox="gallery">
+
+                    </div>
+                    <div class="col-6 position-relative overflow-hidden" data-aos="fade-left" data-aos-duration="500"
+                        data-aos-delay="200">
+                        <img src="assest/img/img-main/taliwind-1.png" alt="web" class="pr-img" data-fancybox="gallery">
+
+                    </div>
+                    <div class="col-6  position-relative overflow-hidden" data-aos="fade-left" data-aos-duration="500"
+                        data-aos-delay="100">
+                        <img src="assest/img/img-main/talliwind-2.png" alt="" class="pr-img" data-fancybox="gallery">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href=""></a>
+
+        <!-- blog -->
+         <section class="py-5" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="titel text-center position-relative py-3" data-aos="fade-up" data-aos-duration="800">
+                        <h2 class=" text-secondary opacity-25  mt-3 z-n1 ">BLOGS</h2>
+                        <div class="text-warning fs-3 position-absolute title">
+                            BLOGS
+                        </div>
+                    </div>
+
+
+                    <div class="col-4" data-aos="fade-right" data-aos-duration="500" data-aos-delay="100">
+                        <div class="blog-img overflow-hidden ">
+                            <img src="assest/img/blog/blog1.jpg" alt="blog-1">
+                        </div>
+                        <div class="blog-contant mt-4 mx-4 ">
+                            <p>By : <Span class="text-warning ">Admin</Span> <span class="text-warning ">17-5-24</span>
+                            </p>
+
+                            <a href="javascript:void(0);" class="fs-5 text-white b-h">
+                                What are the latest trends in Web Developer according to you?
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                        <div class="blog-img overflow-hidden ">
+                            <img src="assest/img/blog/blog2.jpg" alt="blog-2">
+                        </div>
+                        <div class="blog-contant mt-4 mx-4 ">
+                            <p>By : <Span class="text-warning ">Admin</Span> <span class="text-warning ">17-5-24</span>
+                            </p>
+
+                            <a href="javascript:void(0);" class="fs-5 text-white b-h">
+                                What are the latest trends in Web Developer according to you?
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-4" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                        <div class="blog-img overflow-hidden ">
+                            <img src="assest/img/blog/blog3.jpg" alt="blog-3">
+                        </div>
+                        <div class="blog-contant mt-4 mx-4 ">
+                            <p>By : <Span class="text-warning ">Admin</Span> <span class="text-warning ">17-5-24</span>
+                            </p>
+
+                            <a href="javascript:void(0);" class="fs-5 text-white b-h">
+                                What are the latest trends in Web Developer according to you?
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- contect -->
+         <section class="py-5" id="contect">
+            <div class="container" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                <div class="row">
+                    <div class="titel text-center position-relative py-3" data-aos="fade-up" data-aos-duration="800">
+                        <h2 class=" text-secondary opacity-25  mt-3 z-n1 ">CONTACT</h2>
+                        <div class="text-warning fs-3 position-absolute title">
+                            CONTACT
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-white mb-3  fs-3 ">
+                            Just say Hello
+                        </div>
+                        <form class="d-flex flex-wrap row-gap-4 form">
+                            <input type="text" placeholder="Your Name" name="name" class="d-block p-3 w-100 ">
+                            <input type="text" placeholder="Your Email" name="email" class="d-block p-3 w-100 ">
+                            <input type="text" placeholder="Your Subject" name="subject" class="p-3 w-100  ">
+
+                            <textarea name="msg" placeholder="Your Message" class="d-block p-3 w-100 "></textarea>
+                        </form>
+                        <button class="btn btn-primary  p-2 px-xl-5  rounded-pill fs-5 mt-3" type="submit"
+                            name="submit">Send
+                            Message</button>
+                    </div>
+
+                    <div class="col-6 ">
+                        <div class="contant-info">
+                            <h3 class="mb-3 ">Contact Info</h3>
+                        </div>
+
+                        <div class="contant-info d-flex">
+                            <div
+                                class="broder-icon d-flex justify-content-center  align-items-center rounded-circle me-3 ">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+
+                            <div>
+                                <h3 class="fs-6 ">Email</h3>
+                                <a href="#" style="color: #A9AdB8;">monparashreyj2006@gmail.com</a>
+
+                            </div>
+                        </div>
+
+                        <div class="contant-info d-flex py-5  ">
+                            <div
+                                class="broder-icon d-flex justify-content-center  align-items-center rounded-circle me-3 ">
+                                <i class="bi bi-telephone-minus"></i>
+                            </div>
+
+                            <div>
+                                <h3 class="fs-6 ">Phone</h3>
+                                <a href="#" style="color: #A9AdB8;">+98794-72600</a>
+
+                            </div>
+                        </div>
+
+                        <div class="contant-info d-flex">
+                            <div
+                                class="broder-icon d-flex justify-content-center  align-items-center rounded-circle me-3 ">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+
+                            <div>
+                                <h3 class="fs-6 ">Address</h3>
+                                <a href="#" style="color: #A9AdB8;">variyav , surat 395004</a>
+                            </div>
+                        </div>
+
+                        <p class="mt-5 me-3 ">Visite my social profile and get connected</p>
+
+                        <div class="st-social-group-2 d-flex ">
+                            <a href="https://www.linkedin.com/in/monpara-shrey-20b110275/" target="_blank">
+                                <button type="button" class="social-btn  p-3  px-xl-4 pe-2"><span><i
+                                            class="bi bi-linkedin me-3 fs-5 "></i></span>Linkedin</button>
+                            </a>
+                            <a href="https://github.com/ankurchangani" target="_blank">
+                                <button type="button" class="social-btn  p-3  px-xl-4 pe-2"><span><i
+                                            class="bi bi-github pe-2"></i></span>Github</button>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <button type="button" class="social-btn  p-3  px-xl-4 pe-2"><span><i
+                                            class="bi bi-instagram pe-2"></i></span>Instagram</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="py-3 overflow-hidden " style="background-color: #0A101E;">
+        <div class="conatiner">
+            <div class="row">
+                <p class="text-center fs-6  ">© 2024 All right reserved.</p>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="assest/js/jquery.min.js"></script>
+    <script src="assest/js/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {});
+    </script>
+    <script src="assest/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="assest/js/swiper-bundle.min.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Initialize Swiper -->
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            autoplay: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+    <!-- cursor -->
+    <script>
+
+
+        const cursor = document.querySelector("#cursor");
+        const cursorBorder = document.querySelector("#cursor-border");
+        const cursorPos = { x: 0, y: 0 };
+        const cursorBorderPos = { x: 0, y: 0 };
+
+        document.addEventListener("mousemove", (e) => {
+            cursorPos.x = e.clientX;
+            cursorPos.y = e.clientY;
+
+            cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+        });
+
+        requestAnimationFrame(function loop() {
+            const easting = 8;
+            cursorBorderPos.x += (cursorPos.x - cursorBorderPos.x) / easting;
+            cursorBorderPos.y += (cursorPos.y - cursorBorderPos.y) / easting;
+
+            cursorBorder.style.transform = `translate(${cursorBorderPos.x}px, ${cursorBorderPos.y}px)`;
+            requestAnimationFrame(loop);
+        });
+
+        document.querySelectorAll("[data-cursor]").forEach((item) => {
+            item.addEventListener("mouseover", (e) => {
+                if (item.dataset.cursor === "pointer") {
+                    cursorBorder.style.backgroundColor = "rgba(255, 255, 255, .6)";
+                    cursorBorder.style.setProperty("--size", "30px");
+                }
+                if (item.dataset.cursor === "pointer2") {
+                    cursorBorder.style.backgroundColor = "white";
+                    cursorBorder.style.mixBlendMode = "difference";
+                    cursorBorder.style.setProperty("--size", "80px");
+                }
+            });
+            item.addEventListener("mouseout", (e) => {
+                cursorBorder.style.backgroundColor = "unset";
+                cursorBorder.style.mixBlendMode = "unset";
+                cursorBorder.style.setProperty("--size", "50px");
+            });
+        });
+
+    </script>
+
+    <!-- header-fixed -->
+    <!-- <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                $("header").addClass("fixed-header");
+            }
+            else {
+                $("header").removeClass("fixed-header");
+            }
+        });
+    </script> -->
+
+    <!-- loader -->
+    <script>
+        $(window).on('load', function () {
+            $('.loading-area').delay(3000).fadeOut('fast');
+            setTimeout(function () {
+                $("body").removeClass("hidden");
+            }, 2500)
+        })
+    </script>
+</body>
+
+</html>

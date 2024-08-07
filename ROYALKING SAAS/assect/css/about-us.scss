@@ -1,0 +1,74 @@
+.about-contant-us{
+    span{
+        color: #c77a63;
+        text-transform: uppercase;
+    }
+   h3{
+  font-size: 40px;
+  margin-bottom: 10px;
+   }
+   p{
+    color: #222222;
+   font-size: 17px;
+   }
+}
+.about-us-itmes{
+    padding: 50px 50px 50px;
+    background-color: white;
+    box-shadow: 0 10px 80px rgba(0,0,0,.1);
+    margin-left: 17px;
+    // border-radius: 10px;
+    text-align: center;
+
+    .about-icon-itmes{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color:#c77a63 ;
+        margin: 0 auto;
+      
+        &::before{
+            content: ",,";
+            color: white;
+            font-size: 20px;
+        }
+        
+    }
+
+    .about-us-contant{
+        p{
+            margin-bottom: 20px;
+            color:#6E6E6E;
+        }
+        h4{
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        
+    }
+    .about-img-postion{
+        position: relative;
+        .about-us-img{
+            position: absolute;
+            left: 35%;
+            // bottom:10px;
+            
+           }
+    }
+  
+
+
+}
+.about-us-img-2{
+    position: relative;
+    img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+       left: -10px;
+       bottom: -120px;
+       z-index: -1;
+    }
+    
+  
+}

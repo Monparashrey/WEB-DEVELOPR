@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royalking - Hotel Booking </title>
+
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" type="imge/png" href="assect/images/logo/favicon.png">
+
+
+    <!-- all-min.css -->
+    <link rel="stylesheet" href="assect/css/all.min.css">
+
+    <!-- font.css -->
+    <link rel="stylesheet" href="assect/css/font.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="assect/css/swiper-bundle.min.css">
+
+    <!-- aos-css -->
+    <link rel="stylesheet" href="assect/css/aos.css">
+
+    <!-- medai.css -->
+
+    <link rel="stylesheet" href="assect/css/media.css">
+
+    <!-- style.css   -->
+    <link rel="stylesheet" href="assect/css/style.css">
+
+    <style>
+        .toggle {
+            margin-left: 50%;
+        }
+
+        .toggle i {
+            padding: 10px;
+
+            background-color: yellow;
+            font-size: 24px;
+            cursor: pointer;
+            /* display:none; */
+        }
+    </style>
+
+</head>
+<!-- <div class="loder">
+    <div class="loader" style="overflow: hidden;"></div>
+</div> -->
+<div class="loader" style=" overflow-x: hidden;">
+    <div class="logo" data-aos="fade-right" data-aos-delay="50">
+        <a href="index.html">
+            <img src="assect/images/logo/logo.png" alt="logo-png">
+        </a>
+    </div>
+</div>
+
+<!-- <div id="cursor"></div>
+    <div id="stalker"></div> -->
+
+<body>
+    <a id="button"></a>
+    <header>
+        <div class="container">
+            <div class="row justify-between items-center">
+                <div class="w-2">
+                    <div class="logo" data-aos="fade-right" data-aos-delay="50">
+                        <a href="index.html">
+                            <img src="assect/images/logo/logo.png" alt="logo-png">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-7">
+                    <nav class=".navigation w-md-d-n" data-aos="fade-down" data-aos-duration="1000">
+                        <ul>
+                            <li>
+                                <span>Home</a><i class="fa-solid fa-angle-down"></i><span></span>
+                            </li>
+                            <li class="dropdown">
+                                <span>About</a><i class="fa-solid fa-angle-down"></i><span></span>
+                                    <div class="dropdown-menu">
+                                        <a href="#">About</a>
+                                        <a href="#">Team</a>
+                                        <a href="#">Testimonials</a>
+                                        <a href="#">FAQ</a>
+                                        <a href="#">404 Error Page</a>
+                                    </div>
+                            </li>
+                            <li class="dropdown">
+                                <span>Pages</a><span><i class="fa-solid fa-angle-down"></i></span></span>
+                                <div class="dropdown-menu">
+                                    <a href="#">Manu</a>
+                                    <a href="#">Gallery</a>
+                                    <a href="#">Spa & Wellness</a>
+                                    <a href="#">Amenities</a>
+                                    <a href="#">Events</a>
+                                    <a href="#">Gallery</a>
+                                    <a href="#">Packages</a>
+
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <span>Rooms</a><span><i class="fa-solid fa-angle-down"></i></span></span>
+                                <div class="dropdown-menu">
+                                    <a href="#">Room Style 01</a>
+                                    <a href="#">Room Style 02</a>
+                                    <a href="#">Room Details</a>
+
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <span>Blog</a><span><i class="fa-solid fa-angle-down"></i></span></span>
+                                <div class="dropdown-menu">
+                                    <a href="#">Blog Grid</a>
+                                    <a href="#">Blog Standard</a>
+                                    <a href="#">Blog Details</a>
+                                </div>
+                            </li>
+
+
+                            <span style="margin-left: 10px;">Contact</a><span><i
+                                        class="fa-solid fa-angle-down"></i></span></span>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <!-- serch-bar -->
+
+                <div class="w-3 d-flex items-center w-md-d-n" data-aos="fade-right" data-aos-easing="ease-in-out">
+                    <div class="serch-bar ">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="btn w-md-d-n">
+                        <a href="javascript:void(0);">Book Your Stay </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- banner -->
+        <section class="banner" style="padding-bottom: 40px;">
+            <div class="container">
+                <div class="row">
+                    <div class="w-6">
+                        <div class="banner-contant " data-aos="fade-right" data-aos-delay="50">
+                            <span>Summer Vacations</span>
+                            <h1> Luxury Your Hotel For Vacation.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                            <div class="btn-2">
+                                <a href="javascript:void(0);">Book Room </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section data-aos="fade-up-left">
+            <div class="container">
+                <div class="row">
+                    <div class="w-12 d-flex">
+                        <div class="from d-flex">
+                            <div class="w-2">
+                                <form>
+                                    <p>Check - in:</p>
+                                    <input placeholder="17 Sep, 2022" class="" type="text"
+                                        id="nd_booking_archive_form_date_range_from" name="form-name">
+                                </form>
+
+                            </div>
+                            <div class="w-2">
+                                <p>Check - Out:</p>
+                                <input placeholder="21 Sep, 2022" class="" type="text"
+                                    id="nd_booking_archive_form_date_range_to" name="form-name">
+                            </div>
+                            <div class="w-2">
+                                <p>Rooms:</p>
+                                <select>
+                                    <option data-display="1 Room">1 Room</option>
+                                    <option value="2">2 Rooms</option>
+                                    <option value="3">3 Rooms</option>
+                                    <option value="4">4 Rooms</option>
+                                    <option value="5">5 Rooms</option>
+                                </select>
+                            </div>
+                            <div class="w-2">
+                                <p>ADULTS:</p>
+                                <select>
+                                    <option>2 Adults</option>
+                                    <option value="1">1 Adult</option>
+                                    <option value="3">3 Adults</option>
+                                    <option value="4">4 Adults</option>
+                                    <option value="5">5 Adults</option>
+                                </select>
+                            </div>
+                            <div class="w-2">
+                                <p>CHILD</p>
+                                <select>
+                                    <option data-display="1 Children">1 Children</option>
+                                    <option value="1">0 Children</option>
+                                    <option value="2">2 Childrens</option>
+                                    <option value="3">3 Childrens</option>
+                                    <option value="4">4 Childrens</option>
+                                    <option value="5">5 Childrens</option>
+                                </select>
+                            </div>
+                            <div class="w-2">
+                                <div class="btn-2">
+
+                                    <a href="javascript:void(0);">Check Availability </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured -->
+
+        <section class="py-100" data-aos="fade-right">
+            <div class="section-titel py-100">
+                <span>excluslve offers</span>
+                <h2>Featured Special
+                    Offers</h2>
+            </div>
+            <div class="featured" style="padding-top: 80px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="w-4">
+                            <div class="featured-itmes">
+                                <div class="featured-p">
+                                    <div class="featured-img">
+                                        <img src="assect/images/featured/feature-image-1.jpg" alt="feature-image-1">
+                                    </div>
+                                </div>
+                                <div class="featured-contant">
+                                    <h3>Kick off Summer<br>
+                                        in NYC</h3>
+                                    <p>Amet minim mollit no duis sit enim
+                                        aliqua dolor do amet officia.</p>
+                                </div>
+
+                            </div>
+                            <div class="featured-btn">
+                                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="w-4">
+                            <div class="featured-itmes">
+                                <div class="featured-p">
+                                    <div class="featured-img">
+                                        <img src="assect/images/featured/feature-image-2.jpg" alt="feature-image-2">
+
+                                    </div>
+                                </div>
+                                <div class="featured-contant">
+                                    <h3>Free Breakfast<br>
+                                        Packages</h3>
+                                    <p> Amet minim mollit no duis sit enim
+                                        aliqua dolor do amet officia.</p>
+                                </div>
+                            </div>
+                            <div class="featured-btn">
+                                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="w-4">
+                            <div class="featured-itmes">
+                                <div class="featured-p">
+                                    <div class="featured-img">
+                                        <img src="assect/images/featured/feature-image-3.jpg" alt="feature-image-3">
+
+                                    </div>
+                                </div>
+                                <div class="featured-contant">
+                                    <h3>The Signature<br>
+                                        Collection</h3>
+                                    <p>Amet minim mollit no duis sit enim
+                                        aliqua dolor do amet officia.</p>
+                                </div>
+                            </div>
+                            <div class="featured-btn">
+                                <a href="javascript:void(0);"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color:  #faf5f2 !important; height:700px;">
+            <div class="container">
+                <div class="row">
+                    <div class="w-6">
+                        <div class="about">
+                            <div class="about-img">
+                                <div class="about-shap">
+                                    <div class="shap-about"></div>
+                                </div>
+                                <img src="assect/images/about/about.jpg" alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w-6">
+                        <div class="about-contant " data-aos="fade-up-left" data-aos-delay="100">
+                            <span>ABOUT ROYALKING</span>
+                            <h2>Luxury
+                                Hotel in The Heart of
+                                San Francisco.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices
+                                suspendisse varius etiam est. Est, felis, tempus nec vitae orci sodales Metus, velit nec
+                                at diam in sed. Massa dui ipsum ornare sagittis dolor sagittis amet odio est. Sit semper
+                                et velit fusce.</p>
+
+                            <div class="about-btn">
+                                <a href="javascript:void(0);">Discover More </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-100">
+            <div class="section-titel " data-aos="fade-right" data-aos-delay="100">
+                <span>DISCOVER</span>
+                <h2>Rooms & Suites</h2>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="featured" style="padding-top: 80px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="w-4">
+                                    <div class="rooms-itmes-img" data-aos="fade-right" data-aos-delay="200">
+                                        <div class="rooms-img">
+                                            <img src="assect/images/room/room-1.jpg" alt="rrom-1-jpg">
+                                        </div>
+                                        <div class="featured-itmes-2">
+                                            <div class="rooms-items">
+                                                <div class="room-contant d-flex">
+
+                                                    <span>Start from </span>
+                                                    <h6 class="counter" data-speed="5000">100</h6>
+                                                    <span>/night</span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="rooms-items-2">
+                                            <div class="rooms-info-contant">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+
+                                                <a href="#">
+                                                    Luxury Room
+                                                </a>
+
+                                                <p>Mattis cras magna morb punar aenean aliquet<br> in. Risus a arcu
+                                                    eget.</p>
+
+                                                <div class="btn">
+
+                                                    <a href="#">Book Your Stay </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="w-4">
+                                    <div class="rooms-itmes-img">
+                                        <div class="rooms-img">
+                                            <img src="assect/images/room/room-2.jpg" alt="rrom-1-jpg">
+                                        </div>
+                                        <div class="featured-itmes-2">
+                                            <div class="rooms-items">
+                                                <div class="room-contant d-flex">
+
+                                                    <span>Start from </span>
+                                                    <h6 class="counter" data-speed="5000">200</h6>
+
+                                                    <span>/night</span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="rooms-items-2">
+                                            <div class="rooms-info-contant">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+
+                                                <a href="#">
+                                                    Deluxe Room
+                                                </a>
+
+                                                <p>Mattis cras magna morb punar aenean aliquet<br> in. Risus a arcu
+                                                    eget.</p>
+
+                                                <div class="btn">
+
+                                                    <a href="#">Book Your Stay </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="w-4">
+                                    <div class="rooms-itmes-img" data-aos="fade-left" data-aos-delay="200">
+                                        <div class="rooms-img">
+                                            <img src="assect/images/room/room-3.jpg" alt="rrom-1-jpg">
+                                        </div>
+                                        <div class="featured-itmes-2">
+                                            <div class="rooms-items">
+                                                <div class="room-contant d-flex">
+
+                                                    <span>Start from </span>
+                                                    <h6 class="counter" data-speed="5000">100</h6>
+                                                    <span>/night</span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="rooms-items-2">
+                                            <div class="rooms-info-contant">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+
+                                                <a href="#">
+                                                    Luxury Room
+                                                </a>
+
+                                                <p>Mattis cras magna morb punar aenean aliquet<br> in. Risus a arcu
+                                                    eget.</p>
+
+                                                <div class="btn">
+
+                                                    <a href="javascript:void(0);">Book Your Stay </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- discover -->
+
+        <section class="discover">
+
+            <div class="container">
+                <div class="row">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="w-4">
+                                    <div class="discover-img"
+                                        style="background-image: url('./assect/images/swiper-img/project-1.jpg');">
+                                        <div class="discover-background-img">
+
+                                        </div>
+                                    </div>
+                                    <div class="discover-p" data-aos="flip-up" data-aos-delay="200">
+                                        <div class="discover-items">
+                                            <div class="discover-contant">
+                                                <span>Discover</span>
+                                                <h3>Rooms & Suites</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Adipiscing
+                                                    integer ultrices suspendisse varius etiam est tempus nec vitae orci
+                                                    sodales.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="w-4">
+                                    <div class="discover-img"
+                                        style="background-image: url('./assect/images/swiper-img/project-2.jpg');">
+                                        <div class="discover-background-img">
+
+                                        </div>
+                                    </div>
+                                    <div class="discover-p" data-aos="flip-up" data-aos-delay="200">
+                                        <div class="discover-items">
+                                            <div class="discover-contant">
+                                                <span>Discover</span>
+                                                <h3>Rooms & Suites</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Adipiscing
+                                                    integer ultrices suspendisse varius etiam est tempus nec vitae orci
+                                                    sodales.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="w-4">
+                                    <div class="discover-img"
+                                        style="background-image: url('./assect/images/swiper-img/project-3.jpg');">
+                                        <div class="discover-background-img">
+
+                                        </div>
+                                    </div>
+                                    <div class="discover-p" data-aos="flip-up" data-aos-delay="200">
+                                        <div class="discover-items">
+                                            <div class="discover-contant">
+                                                <span>Discover</span>
+                                                <h3>Rooms & Suites</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Adipiscing
+                                                    integer ultrices suspendisse varius etiam est tempus nec vitae orci
+                                                    sodales.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: #faf5f2;">
+            <div class="section-titel py-100" data-aos="fade-left" data-aos-delay="100">
+                <span>DISCOVER</span>
+                <h2 style="margin: 0px 0px 20px;">Our Best Amenities</h2>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing
+                    integer ultrices suspendisse varius etiam est<br>.
+                    Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum ornare
+                    sagittis dolor<br>
+                    sagittis amet odio est. Sit semper et velit fusce.</p>
+            </div>
+
+            <div class="container">
+                <div class="row justify-between" data-aos="fade-right" data-aos-delay="100">
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-solid fa-wifi"></i>
+                            <h6>FAST WIFI</h6>
+                        </div>
+                    </div>
+
+                    <div class="amenities-itmes" style="padding: 75px;">
+                        <div class="amentiies-contant">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <h6>COFFEE</h6>
+                        </div>
+                    </div>
+
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-solid fa-bath"></i>
+                            <h6>BATH</h6>
+                        </div>
+                    </div>
+
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-solid fa-car"></i>
+                            <p>PARKING SPACE​</p>
+                        </div>
+                    </div>
+
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <h6>SWIMMING POOL</h6>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="row justify-between" data-aos="fade-" data-aos-delay="100">
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-brands fa-servicestack"></i>
+
+                            <h6>LAUNDRY SERVICE</h6>
+
+                        </div>
+                    </div>
+
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <h6>BREAKFAST</h6>
+                        </div>
+                    </div>
+
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-solid fa-spa"></i>
+                            <h6>SPA & WELLNESS</h6>
+                        </div>
+                    </div>
+
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-regular fa-hospital"></i>
+                            <h6>MEETING ROOM</h6>
+                        </div>
+                    </div>
+
+                    <div class="amenities-itmes">
+                        <div class="amentiies-contant">
+                            <i class="fa-solid fa-wine-glass-empty"></i>
+                            <h6>WELCOME DRINK</h6>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <setion style="padding: 80px;">
+            <div class="container py-100">
+                <div class="row justify-center items-center">
+                    <div class="w-4">
+                        <div class="about-contant-us">
+                            <span>Testimonials</span>
+                            <h3>What Theyr Say About us</h3>
+                            <p>Amet dui scelerisque vel habitant eget <br>Amet dui scelerisque vel habitant eget <br>
+                                tincidunt facilisis pretium. Porttitor mi </p>
+                        </div>
+                    </div>
+
+                    <div class="w-4">
+                        <div class="about-us-itmes">
+                            <div class="about-icon-itmes"></div>
+                            <div class="about-us-contant">
+                                <p>“Mattis cras magna morb nula punar<br> aenean aliquet in. Risus a arcu eget
+                                    mi<br>hendrerit
+                                    gravida elit scelerisque <br>tempor Pharetra fringilla tellus vivera<br> eget sapien
+                                    viverra
+                                    faucibus <br>facilisis sed facilisi dictum.”</p>
+
+                                <h4>Ralph Edwards</h4>
+                                <p>Manager</p>
+                            </div>
+
+                            <div class="about-img-postion">
+                                <div class="about-us-img">
+                                    <img src="assect/images/about-us/img-2.jpg" alt=""
+                                        style="width: 90px; height: 90px; border-radius: 50%;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-us-img-2">
+                            <img src="assect/images/about-us/pattern-1.png" alt="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="w-4">
+                        <div class="about-us-itmes">
+                            <div class="about-icon-itmes"></div>
+                            <div class="about-us-contant">
+                                <p>“Mattis cras magna morb nula punar<br> aenean aliquet in. Risus a arcu eget
+                                    mi<br>hendrerit
+                                    gravida elit scelerisque <br>tempor Pharetra fringilla tellus vivera<br> eget sapien
+                                    viverra
+                                    faucibus <br>facilisis sed facilisi dictum.”</p>
+
+                                <h4>Jacob Jones</h4>
+                                <p>Manager</p>
+                            </div>
+
+                            <div class="about-img-postion">
+                                <div class="about-us-img">
+                                    <img src="assect/images/about-us/img-1.jpg" alt=""
+                                        style="width: 90px; height: 90px; border-radius: 50%;">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </setion>
+        <section class="vacation">
+            <div class="container">
+                <div class="row">
+                    <div class="w-12">
+                        <div class="section-titel" data-aos="fade-left" data-aos-delay="100">
+                            <span>DISCOVER</span>
+                            <h2 style="color: white; text-align: center;">Looking for a Relaxing Country<br>
+                                Vacation Rental?</h2>
+                        </div>
+
+                        <div class="vacation-btn" data-aos="fade-right">
+                            <div class="btn-2">
+                                <a href="javascript:void(0);">Check Availability </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-100">
+            <div class="section-titel py-100">
+                <span>excluslve offers</span>
+                <h2>Get More Update For
+                    Royalking</h2>
+
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="w-4">
+                        <div class="rooms-itmes-img">
+                            <div class="blog-img">
+                                <img src="assect/images/Blog/blog-1.jpg" alt="blog-1">
+                            </div>
+                            <div class="blog-p" data-aos="fade-right" data-aos-delay="100">
+                                <div class="blog-items">
+                                    <div class="blog-info-contant">
+                                        <div class="blogo-btn">
+                                            <span>15 APRIL</span>
+                                        </div>
+                                        <a href="#">Our New Miami Beach Hotel Is Open!</a>
+                                        <h6>Admin - 0 Comment</h6>
+                                        <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
+
+                                        <div class="blog-btn">
+                                            <a href="javascript:void(0);"><i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="w-4">
+                        <div class="rooms-itmes-img">
+                            <div class="blog-img">
+                                <img src="assect/images/Blog/blog-2.jpg" alt="blog-2">
+                            </div>
+                            <div class="blog-p" data-aos="fade-right" data-aos-delay="100">
+                                <div class="blog-items">
+                                    <div class="blog-info-contant">
+                                        <div class="blogo-btn">
+                                            <span>15 APRIL</span>
+                                        </div>
+                                        <a href="#">Our New Miami Beach Hotel Is Open!</a>
+                                        <h6>Admin - 0 Comment</h6>
+                                        <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
+
+                                        <div class="blog-btn">
+                                            <a href="javascript:void(0);"><i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="w-4">
+                        <div class="rooms-itmes-img">
+                            <div class="blog-img">
+                                <img src="assect/images/Blog/blog-3.jpg" alt="blog-3">
+                            </div>
+                            <div class="blog-p" style="padding: 10px 10px;" data-aos="fade-left" data-aos-delay="100">
+                                <div class="blog-items">
+                                    <div class="blog-info-contant">
+                                        <div class="blogo-btn">
+                                            <span>15 APRIL</span>
+                                        </div>
+                                        <a href="#" style="margin-bottom: 40px;">Our New Miami Beach Hotel Is Open!</a>
+                                        <h6>Admin - 0 Comment</h6>
+                                        <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
+
+                                        <div class="blog-btn">
+                                            <a href="javascript:void(0);"><i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding-top: 150px;">
+            <div class="container">
+                <div class="row">
+                    <div class="w-6">
+                        <div class="section-titel py-100" data-aos="fade-right" data-aos-delay="100">
+                            <h6>CONTACT US</h6>
+                            <h2 style="font-size: 35px; margin-bottom: 10px;">If You Wish To
+                                Learn More Ask Before
+                                Booking.</h2>
+                            <p>Adipiscing integer ultrices suspendisse varius etiam est. Est, felis, tempus<br>
+                                nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum<br>
+                                ornare sagittis dolor sagittis amet odio est.</p>
+                        </div>
+                    </div>
+                    <div class="w-6">
+                        <div class="form-itmes" data-aos="fade-left" data-aos-delay="100">
+                            <form>
+                                <input type="text" placeholder="Your Name" required="" name="form_name">
+                                <div class="broder-bottom"></div>
+                                <input type="text" placeholder="Your Email" required="" name="email">
+                                <div class="broder-bottom"></div>
+                                <input type="text" placeholder="Subject" required="" name="form_subject">
+                                <div class="broder-bottom"></div>
+                                <textarea name="form_message" placeholder="Message"></textarea>
+                                <div class="broder-bottom"></div>
+
+                                <div class="chekbox">
+                                    <p>
+                                        <input type="checkbox">
+                                        I agree to the terms & conditions
+                                    </p>
+                                </div>
+                                <div class="from-btn">
+                                    <button class="btn-1" type="submit" data-loading-text="Please wait...">Submit Now <i
+                                            class="flaticon-right-arrow-1"></i><span></span></button>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                    <div class="form-img">
+                        <div class="from-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="w-3">
+                    <div class="footer-contant">
+                        <h4>Contact Us</h4>
+                        <p>Add: New Hyde Park, NY 11040</p>
+                        <p>Email: example@royalking.com</p>
+                        <p>Phone: 333 666 0000</p>
+                        <div class="footer-icon" style="text-align: center; margin-top: 10px;">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-3">
+                    <div class="footer-contant">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Case</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-3">
+                    <div class="footer-contant">
+                        <h4>Hours</h4>
+                        <p>Tincidunt neque pretium lectus<br>
+                            donec risus.</p>
+                        <p>Mon - Fri: 9:00AM - 6:00PM</p>
+                        <p>Sat - Sun: 8:00AM - 4:00PM</p>
+                    </div>
+                </div>
+                <div class="w-3">
+                    <div class="footer-contant">
+                        <h4>Newsletter</h4>
+                        <p>Tincidunt neque pretium lectus<br>
+                            donec risus.</p>
+                    </div>
+
+                    <form>
+                        <input type="email" placeholder="Email address">
+                        <div class="footer-btn">
+                            <div class="btn-2">
+                                <a href="javascript:void(0);">Book Your Stay </a>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+    <script src="assect/js/jquery-3.7.1.min.js"></script>
+    <script src="assect/js/swiper-bundle.min.js"></script>
+    <script src="assect/js/aos.js"></script>
+
+
+    <!-- swiper -->
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // slidesPerView: 3,
+            // Optional parameters
+            loop: true,
+            autoplay: true,
+
+
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+
+        // $('.counter').counterUp({
+        //     delay: 10,
+        //     time: 2000
+        // });
+        $('.counter').addClass('animated fadeInDownBig');
+        $('h3').addClass('animated fadeIn');
+    </script>
+
+    <script>
+        $(window).on("load", function () {
+
+            //Fade Out
+            //$(".loader").delay(1500).fadeOut(500);
+
+            //Slide Left
+            $(".loader").delay(1500).animate({ width: 'toggle' }, 2000);
+
+        });
+    </script>
+
+    <!-- back-to top btn -->
+    <script>
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".toggle").click(function () {
+                $("nav").fadeToggle(1000)
+            });
+        });
+    </script>
+
+    <!-- counter -->
+    <script>
+        (() => {
+            const counter = document.querySelectorAll('.counter');
+            // covert to array
+            const array = Array.from(counter);
+            // select array element
+            array.map((item) => {
+                // data layer
+                let counterInnerText = item.textContent;
+
+                let count = 1;
+                let speed = item.dataset.speed / counterInnerText
+                function counterUp() {
+                    item.textContent = count++
+                    if (counterInnerText < count) {
+                        clearInterval(stop);
+                    }
+                }
+                const stop = setInterval(() => {
+                    counterUp();
+                }, speed);
+            })
+        })()
+
+    </script>
+
+    <!-- cursor -->
+    <script>
+        const cursor = document.getElementById("cursor");
+        const stalker = document.getElementById("stalker");
+        document.addEventListener("mousemove", (event) => {
+            const x = event.clientX;
+            const y = event.clientY;
+            cursor.style.transform = `translate(${x}px, ${y}px)`;
+            stalker.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    </script>
+
+
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                $("header").addClass("fixed-header");
+            }
+            else {
+                $("header").removeClass("fixed-header");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

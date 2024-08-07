@@ -1,0 +1,43 @@
+.vacation{
+    background-image: url('../images/Vacation/parallax-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    // &::before{
+    //     content: "";
+    //     top: 0;
+    //     bottom: 0;
+    //     background: rgba(0, 0, 0, .4);
+    // }
+
+   
+}
+.section-titel{
+    h2{
+    // color:gray;
+    }
+}
+.vacation-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn-2{
+        display: inline-flex;
+        padding: 20px;
+        background-color: #c77a63;
+        margin-top: 20px;
+        transition: all 0.1s ease;
+        a{
+            color: white;
+        }
+        &:hover{
+            background-color: #2c2a49;
+        }
+    }
+}
+
+
+   

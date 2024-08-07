@@ -1,0 +1,30 @@
+.amenities-itmes{
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0 10px 80px rgba(0, 0, 0, .05);
+    text-align: center;
+    padding: 73px 70px;
+    transition: .5s;
+    .amentiies-contant{
+        i{
+            font-size: 64px;
+            transition: all 0.2s;
+            color: #6e6e6e;
+            cursor: pointer;
+            &:hover{
+            color: #c77a63;
+            }
+        }
+        p{
+            color: #6e6e6e;
+            margin-top: 10px;
+        }
+
+        h6{
+            color: #6e6e6e;
+            font-size: 12px;
+            margin-top: 10px;
+
+        }
+    }
+}

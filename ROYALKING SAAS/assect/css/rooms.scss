@@ -1,0 +1,105 @@
+.section-titel {
+
+    span,
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+    }
+
+    span {
+        color: #c77a63;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 40px;
+        color: #2b2d42;
+        font-family: "Cormorant_Fallback_968cd1" !important;
+    }
+}
+
+.rooms-itmes-img {
+    margin-left: 30px;
+
+    .rooms-img {
+        transition: .7s;
+        width: 100%;
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+}
+.featured-itmes-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.rooms-items {
+    padding: 10px 45px;
+    background: #fff;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, .15);
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+
+    border-radius: 30px;
+    .room-contant {
+        span {
+            color: #6E6E6E;
+            margin: 3px;
+            display: inline-block;
+        }
+
+        h6 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #c77a63;
+            font-size: 17px;
+            margin-right: 3px;
+        }
+    }
+
+}
+
+.rooms-items-2{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, .15);
+
+    .rooms-info-contant{
+        i{
+            color: #c77a63;
+            margin: 0px 0px 15px;
+        }
+        a{
+            display: block;
+            color: #2b2d42;
+            font-size: 30px;
+            transition: all 0.2s ease;
+            &:hover{
+                color: #c77a63;
+            }
+        }
+        p{
+          margin-top: 17px;
+        }
+        
+
+        .btn{
+            padding: 10px;
+            display: inline-block;
+            margin-top: 17px;
+            a{
+                font-size: 17px;
+                color: #222222;
+            }
+        }
+    }
+}

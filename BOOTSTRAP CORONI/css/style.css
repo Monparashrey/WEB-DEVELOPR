@@ -1,0 +1,61 @@
+.navbar {
+  transition: background-color 0.5s ease;
+}
+
+.p6 {
+  padding-left: 35%;
+}
+
+.p7 {
+  padding-top: 16%;
+}
+
+.map {
+  background-image: url(../images/map.svg);
+}
+
+.fs-7 {
+  font-size: 84px;
+}
+.header-bg{
+  background-color: #3e50d866;
+}
+.banner-section {
+  background-image: url('../images/banner/7.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #001eff66;
+}
+
+.top-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 1;
+}
+
+.banner-content {
+  color: #fff;
+  z-index: 1;
+}
+
+.bg-color {
+  background-color: #002359;
+}
+
+.footer {
+  background-color: #002359;
+}

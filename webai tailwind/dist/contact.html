@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web Al startup & Technolog</title>
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        input:focus,textarea {
+  color: white;
+}
+.back svg {
+    bottom: 40px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color:white;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover{
+        background-color: #4B2697;
+    }
+
+
+}
+    </style>
+</head>
+
+<body class="bg-[#050913]">
+    <div class="back">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 18.75 7.5-7.5 7.5 7.5" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 7.5-7.5 7.5 7.5" />
+              </svg>
+              
+        </a>
+    </div>
+    <header class="pb-2.5 pt-2.5 ">
+        <div class="container mx-auto flex w-full">
+            <div class="w-1/4">
+                <div class="logo-bar w-28"  data-aos="fade-left" ata-aos-duration="1500">
+                    <img src="images/logo/logo (1).png" alt="">
+                </div>
+            </div>
+            <div class="w-3/6">
+                <div class="navigation" data-aos="fade-left" ata-aos-duration="2500">
+                    <ul class="flex justify-center items-center mt-2">
+                        <li>
+                            <a class="pl-10   text-purple-500 " href="index.html">Home</a>
+                            <div class="broder border-purple-950 border">
+
+                            </div>
+                        </li>
+                        <li>
+                            <a class="pl-10 m-2 px-1 text-white hover:text-purple-500 ease-in" href="about.html"
+                                id="featured">About</a>
+                        </li>
+
+                        <li>
+                            <a class="pl-10  m-2px-1 text-white hover:text-purple-500 ease-in" href="blog.html">Blog</a>
+                        </li>
+
+                        <li>
+                            <a class="pl-10 m-2 px-1 text-white hover:text-purple-500 ease-in"
+                                href="contact.html">Contact</a>
+                        </li>
+
+                        <li>
+                            <a class="pl-10 m-2 px-1 text-white hover:text-purple-500 ease-in"
+                            href="service.html">Service</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-1/4  flex justify-center items-center" data-aos="fade-right" data-aos-duration="1500">
+                <div class="btn">
+                    <a href="#" class="text-white flex items-center justify-center"><span class="inline-block"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width=""
+                                stroke="currentColor" class=" h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9 8.25H7.5a2.25 2.25 0 0 0-2.25 2.25v9a2.25 2.25 0 0 0 2.25 2.25h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25H15M9 12l3 3m0 0 3-3m-3 3V2.25" />
+                            </svg>
+                        </span>Download </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-20 text-center">
+           <div class="contact-contant" data-aos="fade-down" data-aos-duration="1500">
+            <span class="text-white">CONTACT US</span>
+            <div class="text-center text-white">
+                <h1 class="text-[#6600FF] mt-5 text-3xl">Have a Cool Project? Get in Touch!</h1>
+            </div>
+           </div>
+            <div class="container mx-auto flex py-12">
+                <div class="w-6/12">
+                    <div class="contant-img overflow-hidden cursor-pointer" >
+                        <img src="images/conatnt/contant.jpg" alt="contant-img" class="hover:scale-105 duration-500">
+                    </div>
+                </div>
+                <div class="w-6/12" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="form-itmes p-28  ml-8" style="background-color:#0D111A; ">
+                        <form class="block">
+                            <span><input type="text" placeholder="Your Name" required="" name="form_name"
+                                class="block mt-3 p-4  outline-none border-none w-80  bg-[#0D111A]" >
+                                <div class="broder-bottom w-full" style="border-bottom: 1px solid #2a2e36;"></div>
+                            <input type="text" placeholder="Your Email" required="" name="email"
+                                class="block mt-3 p-4  outline-none border-none w-80  bg-[#0D111A]" >
+                                <div class="broder-bottom w-full" style="border-bottom: 1px solid #2a2e36;"></div>
+
+                            <input type="text" placeholder="Your phone" required="" name="phone"
+                                class="block mt-3 p-4  outline-none border-none w-80  bg-[#0D111A]" >
+                                <div class="broder-bottom w-full" style="border-bottom: 1px solid #2a2e36;"></div>
+
+                            <input type="text" placeholder="Subject" required="" name="form_subject"
+                                class="block mt-3 p-4  outline-none border-none w-80  bg-[#0D111A]" >
+                        <div class="broder-bottom w-full" style="border-bottom: 1px solid #2a2e36;"></div>
+
+                            <textarea name="form_message" placeholder="Message"
+                                class="block mt-3 p-4  outline-none border-none w-80 bg-[#0D111A]" ></textarea>
+                                <div class="form-btn w-0">
+                                    <input type="submit" value="Get in Touch" class="p-4 pl-7 bg-green-600 text-white rounded-md text-xl hover:bg-green-300">
+                                </div>
+                        </form>
+
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer  style="background-color: #0D111A ;" class="py-28">
+        <div class="container mx-auto flex">
+            <div class="w-4/12">
+                <div class="footer-logo">
+                    <img src="images/logo/logo (1).png" alt="" style="width: 123px; height: 40px;">
+                </div>
+                <div class="footer-contant">
+                    <p class="text-white mb-4">Start working with Tailwindcss It allows you to compose<br> complex designs by combining and customizing utility <br>classes.</p>
+
+                </div>
+                <div class="">
+                    <span class="text-white">Follow US :</span>
+                </div>
+
+                <div class="flex " style="cursor: pointer;">
+                    <div class="mt-4 ml-2 hover:bg-purple-950 " style="border: 1px solid white ; padding: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="facebook" class="lucide lucide-facebook h-5 w-5 text-default-300 group-hover:text-white"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </div>
+
+                    <div class="mt-4 ml-2 hover:bg-purple-950 " style="border: 1px solid white ; padding: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="instagram" class="lucide lucide-instagram h-5 w-5 text-default-300 group-hover:text-white"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                    </div>
+
+                    <div class="mt-4 ml-2 hover:bg-purple-950 " style="border: 1px solid white ; padding: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="twitter" class="lucide lucide-twitter h-5 w-5 text-default-300 group-hover:text-white"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                    </div>
+
+                    <div class="mt-4 ml-2 hover:bg-purple-950 " style="border: 1px solid white ; padding: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin h-5 w-5 text-default-300 group-hover:text-white"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="w-4/12 pl-10" style="cursor: pointer;">
+                <div class="footer-contant">
+                    <ul>
+                        <h3 class="mt-3 text-xl text-white " style="font-size: 20px;">Company</h3>
+                        <li class="mt-3 text-xl text-white hover:text-purple-900 ">About</li>
+                        <li class="mt-3 text-xl text-white hover:text-purple-900 ">Developers</li>
+                        <li class="mt-3 text-xl text-white hover:text-purple-900 ">Blog</li>
+                        <li class="mt-3 text-xl text-white hover:text-purple-900 ">Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-4/12 pl-10" style="cursor: pointer;">
+                <div class="footer-contant">
+                    <ul>
+                        <h3 class="mt-3 text-xl text-white " style="font-size: 20px;">Service</h3>
+                        <li class="mt-3 text-xl text-white hover:text-purple-900 ">Developer Driven</li>
+                        <li class="mt-3 text-xl text-white hover:text-purple-900 ">DMCA policy</li>
+                        <li class="mt-3 text-xl text-white hover:text-purple-900 ">Private IPFS</li>
+                        <li class="mt-3 text-xl text-white hover:text-purple-900 ">News</li>
+                    </ul>
+                </div>
+            </div>
+
+        
+        </div>
+        <div class="w-full border-t border-white/10 mt-7 flex justify-around ">
+        <div class="text-white mt-4">
+            2024 © WebAi - Design & Crafted  by Coderthemes
+        </div>
+
+        <div class="text-white mt-4">
+            Terms Conditions & Policy   
+        </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <script>
+        // back-top-bar-btn
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 400) {
+                $(".back").fadeIn();
+            }
+            else {
+                $(".back").fadeOut();
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

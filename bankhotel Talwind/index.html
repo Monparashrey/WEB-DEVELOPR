@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK || Hotel</title>
+    <!-- fonts -->
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- aos-css -->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- cdn -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+<style>
+    body {
+        font-family: 'jost';
+    }
+
+    .btn {
+        border: 1px solid #FFFCF6;
+    }
+
+    .bg-room {
+        background-image: url('../dist/images/book/book.png');
+        height: 780px;
+    }
+
+    .bg {
+        background-image: url('../dist/images/ice/bg.png');
+        height: 100vh;
+    }
+
+    input,
+    :focus {
+        color: green;
+    }
+
+    input {}
+</style>
+
+
+<body>
+    <!-- HEADER START -->
+    <header class="bg-[#313F38] p-5">
+        <div class="container mx-auto flex">
+            <div class="w-1/4">
+                <div class="logo-bar flex justify-center items-center">
+                    <span class="text-5xl text-white">BankHotel</span>
+                </div>
+            </div>
+
+            <div class="w-2/3">
+                <nav class="flex justify-center items-center">
+                    <div class=" header-bar">
+                        <ul class="flex mt-3">
+                            <li class="pl-6 text-[#FFFCF6]">
+                                <a href="index.html">Home</a>
+                            </li>
+
+                            <!-- <li class="pl-6 text-[#FFFCF6]">
+                                <a href="">About</a>
+                            </li> -->
+
+                            <li class="pl-9 text-[#FFFCF6]">
+                                <a href="room.html">Rooms</a>
+                            </li>
+
+                            <li class="pl-9 text-[#FFFCF6]">
+                                <a href="facility.html">Facilities</a>
+                            </li>
+
+                            <li class="pl-9 text-[#FFFCF6]">
+                                <a href="blog.html">Blog</a>
+                            </li>
+
+                            <li class="pl-9 text-[#FFFCF6]">
+                                <a href="contact.html">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="w-1/3">
+                <div class="phone flex justify-center items-center mt-3 text-[#FFFCF6]">
+                    <a href="#">+38 032 297 50 20</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- banner -->
+        <section class=" bg-[#313F38] ">
+            <div class="container mx-auto flex  ">
+                <div class="w-7/12">
+                    <div class="banner-contant"></div>
+                    <h1 class="text-[#FFFCF6] text-[100px]">Bank <span class="text-[#FCD043]  text-[100px]">Hotel</span>
+                    </h1>
+                    <p class="text-[24px] text-[#FCD043] fw-normal mb-6">rooms // restaurant // congress hall // wine
+                        bar
+                    </p>
+                </div>
+
+                <div class="w-4/12  ">
+                    <div class="flex justify-center items-center">
+                        <div class="btn  rounded-xl  p-3 inline-block hover:bg-[#FCD043] ease-linear  ">
+                            <div class="flex">
+                                <img src="images/banner/Star 8.png" alt="Star" class=""><a href="#"
+                                    class="ml-4 text-3xl text-white">since 1973</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-center mx-auto text-[18px] text-[#FFFCF6] mt-10">The luxurious hotel in the most
+                            beautiful
+                            <br>
+                            European city with an
+                            exclusive
+                            restaurant,<br>
+                            conference-hall, and art-bar.
+                        </p>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w-4/12">
+                    <div class="banner-img flex justify-center ">
+                        <img src="images/banner/button - default.png" alt="button"
+                            class="bg-cover bg-no-repeat w-24 h-24">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#313F38] ">
+            <div class="container mx-auto">
+                <div class="bg-room bg-no-repeat bg-cover">
+                    <form class="form flex justify-end items-end ">
+                        <div class="mx-9 mt-3">
+                            <input type="" placeholder="Check in"
+                                class="ml-4  p-9 pr-20 outline-none border-none bg-[#313F38]  opacity-[40%] text-white">
+                            <input type="" placeholder="Check out"
+                                class="ml-4  p-9 pr-20  outline-none border-none   bg-[#313F38] opacity-[40%] text-white">
+                            <input type="submit" placeholder=""
+                                class="-ml-4  p-9 pr-20  outline-none border-none   bg-[#fcd043]  text-white">
+
+                        </div>
+
+
+                    </form>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- About  -->
+        <section class="bg-[#313F38] ">
+            <div class="container mx-auto">
+
+
+                <div class="abpout-titel flex justify-between items-center ">
+                    <div>
+                        <h6 class="text-[#FCD043] text-[26px]">+38 032 297 50 20</h6>
+                        <p class="text-[#FFFCF6] text-2xl">8 Lystopadovoho Chynu,Lviv</p>
+                    </div>
+
+                    <div class="flex">
+                        <p class="text-[26px] text-[#fffcf6]">Art & Congress hall</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center    py-24">
+                    <div class="w-4/12 relative">
+                        <div class="about-img z-[1]">
+                            <img src="images/about/ab-1.png" alt="" class="w-[400px] h-[400px]">
+                        </div>
+
+                        <div class="absolute bottom-[70%] ">
+                            <img src="images/shap/Ellipse 18.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-4/12">
+                        <div class="about-contant mx-auto">
+                            <p class="text-[100px] text-center text-[#FCD043]">About <span class="text-white"> Us</span>
+                            </p>
+                        </div>
+
+                        <div class="text-center pt-16 relative">
+                            <h3 class=" text-3xl text-white">High quality</h3>
+                            <p class="text-[#FFFCF6] mt-5">The five-star Bank Hotel was reopened to visitors in 2016.
+                                The
+                                building was renovated and
+                                modernized to meet the expectations of the most demanding guests. We offer luxurious
+                                rooms, numerous facilities, and exceptional service. </p>
+
+                            <div class="absolute top-0 bottom-0 left-0 w-[100px ] h-[100px]">
+                                <!-- <img src="images/shap/Vector 6.png" alt=""> -->
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- <div class="text-center pt-16">
+                           
+                        </div> -->
+                    </div>
+                    <div class="w-4/12 relative">
+                        <div class="about-img flex  flex-wrap justify-end items-end" style="row-gap: 80px;">
+                            <img src="images/about/ab-2.png" alt="">
+                            <img src="images/banner/button - default.png" alt="">
+                        </div>
+
+                        <img src="images/banner/Star 8.png" alt="" class="absolute top-0 ">
+
+
+                        <div class="absolute bottom-[110%] ">
+                            <img src="images/shap/Vector 14.png" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24">
+            <div class="container mx-auto">
+
+                <div class="abpout-titel flex justify-between items-center ">
+                    <div>
+                        <h2 class="text-[60px] text-center">Rooms <br> & apartments</h2>
+                    </div>
+
+                    <div class="flex">
+                        <p class="text-[17px] text-center">All room decoration was <br> made with ecological <br>
+                            certified
+                            and
+                            safe
+                            materials.</p>
+                    </div>
+                </div>
+
+                <div class="flex py-10 ">
+                    <div class="w-4/12">
+                        <div class="room-img">
+                            <img src="images/rooms/image.png" alt="">
+                            <div class="mt-16">
+                                <img src="images/buutoon/button - default.png" alt="">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="w-4/12 mx-auto">
+                        <div class="flex justify-center items-center">
+                            <div class="btn  rounded-xl inline-block    p-3 " style="border: 1px solid #313F38; ">
+                                <div class="flex">
+                                    <img src="images/banner/Star 8.png" alt="Star" class=""><a
+                                        href="javascript:void(0);"
+                                        class="ml-4 text-3xl text-black  text-center">since1973</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rom-contant text-center mt-[50%]">
+                            <h2 class="text-[#1B3B36 text-[36px]">Superior twin</h2>
+                            <p class="mt-5 text-[#1B3B36]">The Superior twin is perfect for those who plan to stay long.
+                                The spacious
+                                and bright
+                                room is
+                                equipped with deluxe Italian furniture and has a beautiful view to the historical part
+                                of
+                                the city. Stylish interior design and comfortable beds will make your stay cozy and
+                                pleasant.</p>
+                        </div>
+
+                    </div>
+                    <div class="w-4/12">
+                        <div class="room-img ml-7">
+                            <img src="images/rooms/image2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-24">
+            <div class="container mx-auto">
+                <div class="titel flex  ">
+                    <div>
+                        <h2 class="text-[20px] text-center">Art & Congress <br> hall</h2>
+                    </div>
+                    <div class="mx-auto">
+                        <h3 class="text-[90px]">
+                            Our
+                            faci<br>
+
+
+                        </h3>
+                        <div class="flex justify-end items-center">
+                            <img src="images/banner/Star 8.png" alt="" class="mr-11">
+                            <p class="text-[90px]">LiTlES</p>
+                        </div>
+
+
+                    </div>
+
+                    <img src="images/facanliti/facalit.png" alt="">
+                    <!-- <p>hotal premlum knaabsmoo</p> -->
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="w-6/12">
+                        <div class="">
+                            <img src="images/facanliti/fa2.png" alt="fa2">
+
+                        </div>
+                    </div>
+                    <div class="w-6/12">
+                        <p class="">Bank Hotel offers you a wide range of <br> additional
+                            services and
+                            facilities. Visit our <br>
+                            restaurant to
+                            try exclusive meals, book a <br> conference hall to organize a business <br> meeting, or
+                            relax
+                            in the
+                            art-bar. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24">
+            <div class="container mx-auto">
+                <div class="text-center text-[60px] text-[#1B3B36] py-24">
+                    0 1
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="w-4/12">
+                        <div>
+                            <img src="images/buutoon/button2.png" alt="button2">
+                        </div>
+                    </div>
+                    <div class="w-4/12">
+                        <div>
+                            <h3 class="text-[50px] text-left text-[#1B3B36]">Ice
+                                restaurant</h3>
+                            <p class="text-[18px] text-left">The hotel’s exclusive infrastructure is complemented <br>
+                                by the
+                                unique atmosphere of the
+                                Safe
+                                Restaurant <br> . Author’s menu, extensive wine card, and live music will <br> set you
+                                for
+                                the
+                                correct mood.</p>
+                        </div>
+                    </div>
+                    <div class="w-4/12">
+                        <div class="pl-8">
+                            <img src="images/ice/image.png" alt="ice">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="py-24">
+            <div class="container mx-auto flex justify-center items-center">
+                <div class="w-3/12">
+                    <div>
+                        <img src="images/ice/hall1.png" alt="">
+                    </div>
+                </div>
+                <div class="w-3/12">
+                    <div class="text-center text-[55px] flex justify-center items-center text-[#1B3B36]">
+                        <h3>02</h3>
+                    </div>
+                </div>
+                <div class="w-3/12">
+                    <div class="text-center text-[55px] flex justify-center items-center text-[#1B3B36]">
+                        <p>conference hall </p>
+                    </div>
+                </div>
+                <div class="w-3/12">
+                    <div class="flex justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-20 h-20">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="mt-4">
+                <hr>
+            </div>
+
+            <div class="container mx-auto flex justify-center items-center pt-3">
+                <div class="w-3/12">
+                    <div>
+                        <img src="images/ice/hall2.png" alt="">
+                    </div>
+                </div>
+                <div class="w-3/12">
+                    <div class="text-center text-[55px] flex justify-center items-center text-[#1B3B36]">
+                        <h3>03</h3>
+                    </div>
+                </div>
+                <div class="w-3/12">
+                    <div class="text-center text-[46px] flex justify-center items-center text-[#1B3B36]">
+                        <p>Wine bar “reserve” </p>
+                    </div>
+                </div>
+                <div class="w-3/12">
+                    <div class="flex justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-20 h-20">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="mt-4">
+                <hr>
+            </div>
+        </section>
+
+        <section class="py-24 bg bg-no-repeat bg-cover">
+            <div class="container mx-auto">
+                <div class="text-[#FCD043] text-[70px]">
+                    <h2>BEST <br> APARTMENTS</h2>
+
+                </div>
+                <div>
+                    <p class="py-24 uppercase text-[#fcd043]">All room decoration was <br> made with ecological <br>
+                        certified and safe
+                        materials.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class=" bg-[#313F38] ">
+            <div class="container mx-auto">
+                <div class="titel text-[#FFFCF6] ">
+                    <h2 class="text-[20px] ">Art & Congress <br> hall</h2>
+                </div>
+
+                <div class="flex justify-center items-center flex-wrap">
+                    <img src="images/shap/label.png" alt="">
+                </div>
+                <div class="text-center text-[#FCD043] text-[70px] uppercase">
+                    <h2>our Gallery</h2>
+                </div>
+                <div class="text-center text-[#FFFCF6]">
+                    pExplore our spacious rooms with the gorgeous view to <br> the historical part of the city. Each
+                    room has
+                    an <br> exclusive interior design decorated with modern art <br> pieces that will make your stay
+                    unforgettable.
+                </div>
+
+                <div class="flex justify-between -ml-[-0] ">
+                    <div>
+                        <img src="images/gallery/gallery.png" alt="gallery1">
+                    </div>
+
+                    <div class="flex  justify-end items-end">
+                        <img src="images/gallery/gallery2.png" alt="gallery2">
+
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center ">
+                    <img src="images/gallery/gallery3.png" alt="">
+                </div>
+
+                <div class="flex">
+                    <div class="flex  -ml-[-0] ">
+                        <div>
+                            <img src="images/gallery/gallery4.png" alt="gallery1">
+                        </div>
+
+                        <!-- <div class="mx-auto ml-[50%] ">
+                            <p>It is our pleasure to meet your most unrealistic expectations.</p>
+
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <img src="images/gallery/Polygon 7.png" alt="">
+                    <p class="ml-2 text-[#FFFCF6] text-[26px] italic">It is our pleasure to meet your most unrealistic
+                        expectations.</p>
+                </div>
+
+                <div class="flex justify-end items-end">
+                    <img src="images/gallery/gallery5.png" alt="">
+                </div>
+
+                <!-- <div class="bank">
+                    <p>BANK hotal <span>BANK hotal</span></p>
+                </div> -->
+        </section>
+
+        <section class="py-24">
+            <div class="container mx-auto">
+                <div>
+                    <p>+38 032 297 50 20</p>
+                </div>
+
+                <div class="flex justify-end items-end mt-8">
+                    <p>8 Lystopadovoho <br> Chynu,Lviv</p>
+                </div>
+
+                <div class="flex justify-between ml-10">
+                    <div class="text-[180px] text-[#1B3B36]">
+                        <div class="flex">
+                            Get in
+                            <div class="flex justify-center items-center ml-2">
+                                <img src="images/banner/Star 8.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center ml-3">
+
+                    </div>
+                    <div class="mt-3">
+                        <img src="images/image.png" alt="">
+                    </div>
+
+
+                </div>
+                <div class="relative">
+                    <div class="text-end absolute right-0 -bottom-32">
+                        <h2 class="text-[180px] text-[#FCD043]">touch</h2>
+                    </div>
+                </div>
+
+                <p class="ml-8">Find a room</p>
+                <form class="form flex ">
+                    <div class="input">
+                        <div class="mx-9 mt-3">
+                            <input type="" placeholder="Check out"
+                                class="ml-4  p-9 pr-20  outline-none border   text-white">
+                            <input type="" placeholder="Check out"
+                                class="-ml-4  p-9 pr-20  outline-none border   text-white">
+                            <input type="submit" placeholder=""
+                                class="-ml-4  p-9 pr-20  outline-none border-none   bg-[#313F38]  text-white">
+
+                        </div>
+                    </div>
+
+
+                </form>
+
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer class="py-24">
+        <div class="container mx-auto flex justify-center items-center">
+            <div class="w-4/12">
+                <div class="footer-titel">
+                    <h2 class="text-[#1B3B36] text-[26px]">About us</h2>
+                </div>
+
+                <div class="mt-2 text-[18px] text-[#1B3B36] opacity-[60%]">
+                    <p>The five-star hotel in a beautiful <br> European city with a modern <br> restaurant,
+                        conference-hall,
+                        and
+                        art-bar.</p>
+
+                    <p class="mt-10">©2021 All rights reserved. BankHotel</p>
+                </div>
+            </div>
+            <div class="w-4/12">
+                <div class="footer-titel">
+                    <h2 class="text-[#1B3B36] text-[26px]">News</h2>
+                    <p class="mt-2 text-[18px] text-[#1B3B36] opacity-[60%]">Sign up to our newsletter not to miss <br>
+                        exclusive offers and information about <br> the upcoming
+                        events.
+                    </p>
+                    <div class="input2 mt-3">
+                        <input type="text" placeholder=" Email" required="" name="email" class="p-6 outline-none "
+                            style="border:1px solid #1B3B36 ">
+                    </div>
+                </div>
+            </div>
+            <div class="w-4/12">
+                <div class="footer-titel">
+                    <h2 class="text-[#1B3B36] text-[26px]">
+                        <span class="text-yellow-200">/</span>Social
+                    </h2>
+
+                    <div class="flex  mt-5 text-[20px]">
+                        <p class="ml-5">Facebook</p>
+                        <p class="ml-5">Instagram</p>
+                        <p class="ml-5">twitter</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

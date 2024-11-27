@@ -1,0 +1,601 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.col-4 {
+  width: 33.3333%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-3 {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+header {
+  background-color: #F3F9FE;
+  color: #fff;
+  padding: 25px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+header .container {
+  position: relative;
+}
+header .logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header .format {
+  display: flex;
+  align-items: center;
+}
+header .accent-color {
+  color: #3ABB69;
+}
+header nav {
+  padding-left: 20%;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header nav ul li a {
+  color: #131313;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: "Lora";
+  font-weight: bolder;
+}
+header nav ul li a:hover {
+  color: #3ABB69;
+}
+header .buttons {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header .buttons .btn {
+  display: flex;
+  align-items: center;
+  background-color: #3ABB69;
+  color: #fff;
+  padding: 12px 23px;
+  border-radius: 0.25rem;
+  font-family: "Lora";
+  text-decoration: none;
+  margin-left: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+header .buttons .btn:hover {
+  background-color: #2e9453;
+}
+
+.banner {
+  background-color: #F3F9FE;
+  height: 78vh;
+  padding-top: 170px;
+  background-image: url(./images/Banner/banner-shape.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.banner .col-6 img {
+  overflow: hidden;
+  width: 115%;
+}
+.banner .col-6 h2 {
+  font-size: 48px;
+  padding-left: 80px;
+  padding-bottom: 15px;
+  font-family: "Lora";
+}
+.banner .col-6 h2 span {
+  color: #3ABB69;
+}
+.banner .col-6 p {
+  padding-left: 80px;
+  line-height: 25px;
+  color: #646772;
+  font-family: "Open Sans";
+}
+.banner .col-6 .buttons {
+  transform: translateY(-50%);
+}
+.banner .col-6 .buttons .btn {
+  display: flex;
+  align-items: center;
+  background-color: #3ABB69;
+  color: #fff;
+  padding: 12px 23px;
+  width: 130px;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin-left: 80px;
+  margin-top: 50px;
+  transition: background-color 0.3s ease;
+}
+.banner .col-6 .buttons .btn:hover {
+  background-color: #2e9453;
+}
+.banner .col-6 .buttons .btn i {
+  padding-right: 10px;
+}
+
+.blog {
+  padding: 30px 0;
+  font-family: "Lora";
+}
+.blog p {
+  font-size: 32px;
+  font-weight: bolder;
+}
+.blog span {
+  color: #3ABB69;
+}
+.blog img {
+  width: 100%;
+  padding-top: 40px;
+}
+.blog h4 {
+  color: #646772;
+  font-weight: lighter;
+  font-family: "Open Sans";
+}
+
+.client {
+  background-image: url(./images/client/dots-left.png), url(./images/client/dots-right.png);
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+.client .row {
+  justify-content: center;
+}
+.client .row img {
+  height: 100px;
+  padding: 30px 0;
+}
+
+.video-container {
+  background-image: url(./images/client/dots-left.png), url(./images/client/dots-right.png);
+  background-repeat: no-repeat;
+  background-position: left, right;
+  position: relative;
+  display: inline-block;
+}
+.video-container img {
+  max-width: 100%;
+  height: auto;
+  padding-left: 150px;
+}
+
+.play-btn-container {
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+}
+
+.play-btn {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: rgba(19, 19, 19, 0.7);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.play-btn::before {
+  content: "";
+  display: inline-block;
+  border-style: solid;
+  border-width: 15px 0 15px 25px;
+  border-color: transparent transparent transparent #F3F9FE;
+}
+.play-btn:hover {
+  background-color: rgba(58, 187, 105, 0.9);
+}
+
+.office-img {
+  padding: 20px 0;
+  width: 300px;
+  background-image: url(./images/office&inventery/dots-icon.png);
+  background-repeat: no-repeat;
+  background-position: 85px;
+}
+.office-img img {
+  width: 60px;
+  padding-left: 125px;
+}
+
+.office-box p {
+  color: #646772;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Open Sans";
+  line-height: 20px;
+  cursor: pointer;
+}
+.office-box p:hover {
+  color: rgba(58, 187, 105, 0.9);
+  transition: all 0.2s;
+}
+
+.office-contant h3 {
+  color: #131313;
+  font-size: 18px;
+  padding: 15px 0;
+  text-align: center;
+  font-family: "Lora";
+}
+
+.Premium {
+  background-image: url(./images/client/banner-bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+.Premium h2 {
+  font-size: 40px;
+  padding-top: 15%;
+  font-family: "Lora";
+}
+.Premium h2 span {
+  color: #3ABB69;
+}
+.Premium p {
+  color: #646772;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 20px 0;
+  font-family: "Open Sans";
+}
+
+.button {
+  right: 0;
+  top: 50%;
+  margin-left: 46%;
+  margin-top: 40px;
+  transform: translateY(-50%);
+}
+.button .btn {
+  display: flex;
+  align-items: center;
+  background-color: #3ABB69;
+  color: #fff;
+  padding: 12px 23px;
+  width: 105px;
+  font-family: "Lora";
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+.button .btn:hover {
+  background-color: #2e9453;
+}
+
+.Testimonial-box {
+  box-shadow: 0 10px 10px #646772;
+  padding: 20px;
+}
+.Testimonial-box .Testimonial-img img {
+  border-radius: 100%;
+  height: 90px;
+  width: 90px;
+  margin-left: 95px;
+  padding-top: 20px;
+}
+.Testimonial-box .Testimonial-container {
+  margin: 20px 0;
+}
+.Testimonial-box .Testimonial-container h2 {
+  text-align: center;
+  color: #3ABB69;
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-family: "Lora";
+}
+.Testimonial-box .Testimonial-container p {
+  text-align: center;
+  color: #646772;
+  font-family: "Open Sans";
+}
+.Testimonial-box .share h3 {
+  padding: 10px;
+  text-align: center;
+  font-weight: lighter;
+  color: #646772;
+  border: 1px solid #646772;
+  font-family: "Open Sans";
+  border-radius: 5px;
+}
+.Testimonial-box .share h3 span {
+  padding-left: 20px;
+  color: #3ABB69;
+  font-weight: lighter;
+  font-family: "Open Sans";
+  cursor: pointer;
+}
+
+.margin {
+  margin-top: 50px;
+}
+
+.Testimonial-left h3 {
+  text-align: right;
+  font-family: cursive;
+  color: #3ABB69;
+  font-size: 18px;
+}
+.Testimonial-left h2 {
+  text-align: right;
+  text-decoration: underline;
+  font-family: "Lora";
+  padding: 20px 0;
+  font-size: 24px;
+}
+.Testimonial-left p {
+  text-align: right;
+  font-family: "Open Sans";
+}
+.Testimonial-left .buttonn {
+  right: 0;
+  top: 50%;
+  margin-left: 81%;
+  margin-top: 40px;
+  transform: translateY(-50%);
+}
+.Testimonial-left .buttonn .btn {
+  display: flex;
+  align-items: center;
+  background-color: #3ABB69;
+  color: #fff;
+  padding: 12px 23px;
+  width: 60px;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+.Testimonial-left .buttonn .btn:hover {
+  background-color: #2e9453;
+}
+
+.Testimonial {
+  padding: 40px 0;
+}
+
+.Pricing-box {
+  box-shadow: 0 10px 10px #646772;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  cursor: pointer;
+  padding: 30px 0;
+  border-radius: 20px;
+}
+.Pricing-box:hover {
+  background-color: #3ABB69;
+  transition: all 0.2s;
+}
+.Pricing-box:hover .Pricing-icon i {
+  background-color: #F3F9FE;
+  color: #3ABB69;
+}
+.Pricing-box:hover .Pricing-contant span i {
+  color: #F3F9FE;
+}
+.Pricing-box:hover .Pricing-contant h3 {
+  color: #F3F9FE;
+}
+.Pricing-box:hover .Pricing-contant h2 {
+  color: #F3F9FE;
+}
+.Pricing-box:hover .Pricing-contant span {
+  color: #F3F9FE;
+}
+.Pricing-box .Pricing-icon {
+  text-align: center;
+}
+.Pricing-box .Pricing-icon i {
+  background-color: #3ABB69;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: #F3F9FE;
+}
+.Pricing-box .Pricing-contant {
+  text-align: center;
+}
+.Pricing-box .Pricing-contant h2 {
+  font-size: 32px;
+  padding: 20px 0;
+  font-family: "Lora";
+}
+.Pricing-box .Pricing-contant span {
+  font-size: 16px;
+  color: #646772;
+  font-family: "Open Sans";
+}
+.Pricing-box .Pricing-contant span i {
+  padding-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 15px;
+  color: #3ABB69;
+}
+.Pricing-box .Pricing-contant h3 {
+  color: #3ABB69;
+  font-family: "Lora";
+}
+.Pricing-box .Pricing-contant h3 span {
+  color: #3ABB69;
+  font-family: "Lora";
+  font-size: 48px;
+  padding-top: 20px;
+}
+
+.news {
+  padding-bottom: 30px;
+}
+.news .news-img img {
+  width: 60px;
+  height: 140px;
+  padding-bottom: 35px;
+  cursor: pointer;
+}
+.news .buttonn {
+  right: 0;
+  top: 50%;
+  margin-top: 40px;
+  transform: translateY(-50%);
+}
+.news .buttonn .btn {
+  font-family: "Lora";
+  display: flex;
+  align-items: center;
+  background-color: #3ABB69;
+  color: #fff;
+  padding: 12px 23px;
+  width: 80px;
+  margin-left: 30px;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.news .buttonn .btn:hover {
+  background-color: #2e9453;
+}
+.news .news-contant h3 {
+  font-family: "Lora";
+  font-size: 18px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.news .news-contant h3:hover {
+  color: #3ABB69;
+  transition: all 0.2s;
+}
+.news .news-contant p {
+  color: #646772;
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin-left: 30px;
+  padding: 15px 0;
+}
+.news .news-contant .row {
+  color: #646772;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.news .news-contant .row:hover {
+  color: #3ABB69;
+  transition: all 0.2s;
+}
+.news .news-contant .row span {
+  padding-left: 20px;
+  font-size: 16px;
+}
+.news .news-contant .row span i {
+  padding-right: 10px;
+}
+
+footer {
+  background-image: url(./images/footer-shape.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+footer .foot-btn img {
+  cursor: pointer;
+  padding-top: 50px;
+  display: block;
+  width: 88px;
+}
+footer span {
+  color: #131313;
+}
+footer .left-footer {
+  font-family: "Open Sans";
+}
+footer .left-footer p {
+  color: #646772;
+  padding: 30px 0;
+}
+footer .left-footer span {
+  cursor: pointer;
+  display: block;
+}
+footer .left-footer span:hover {
+  color: #3ABB69;
+  transition: all 0.2s;
+}
+footer .left-footer span i {
+  padding-right: 10px;
+}
+footer .left-footer .social-icon {
+  padding-top: 20px;
+}
+footer .left-footer .social-icon i {
+  padding-right: 20px;
+  cursor: pointer;
+}
+footer .left-footer .social-icon i:hover {
+  color: #3ABB69;
+  transition: all 0.2s;
+}
+footer .center-footer {
+  padding-top: 15%;
+}
+footer .center-footer h2 {
+  font-family: "Lora";
+  padding-bottom: 50px;
+}
+footer .center-footer h4 {
+  font-family: "Open Sans";
+  color: #646772;
+  font-weight: lighter;
+}
+footer .center-footer h4:hover {
+  color: #3ABB69;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+footer .bottom {
+  background-color: #3ABB69;
+  padding: 15px 0;
+  margin-top: 50px;
+  font-family: "Open Sans";
+  color: #F3F9FE;
+}/*# sourceMappingURL=style.css.map */
